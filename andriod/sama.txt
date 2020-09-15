@@ -1,0 +1,31 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+    int s= 16;
+    String a=" Sama " ;
+    
+    license(a,s);
+    
+    
+    
+    
+    
+    
+    
+   
+    }//main close
+    public static void license(String a , int s ){
+      
+        
+    if (s >18){
+ for (int i=1 ; i<=3 ; i++){
+   System.out.println( "لقد تم حصولك على رخصة القيادة" + a +" مبووك يا ");
+ } } // for,if
+    else { 
+     for (int i=1 ; i<4 ;i++ )
+        System.out.println("مازلت صغيرة " + a +"للاسف يا   ");
+}//else
+System.out.println();
+    }// الدالة
+}// hello world
